@@ -1,0 +1,187 @@
+.subsecuent {
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   
+
+  }
+  
+  .subsecuent-injury {
+    height: 336px;
+    width: fit-content; /* Allow form to adjust width based on content */
+    /* border: 1px solid rgb(21, 14, 14); */
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+  }
+  
+  .subsequent-header {
+    height: 29px;
+    width: 100%;
+    /* border: 2px solid rgb(51, 32, 194); */
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Karla', sans-serif;
+    padding-left: 7px;
+    color: rgb(134, 142, 150);
+    font-weight: bold;
+  }
+  
+  .subsecuent-form {
+    margin-top: 16px;
+    width: 100%; /* Allow form to fit container width */
+    /* border: 3px solid rgb(16, 53, 201); */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius:5px;
+    
+  }
+  
+  .injury-form-first {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Add gap between label and buttons */
+  }
+  
+  .subsecuent-btn {
+    display: flex;
+    gap: 18px;
+    justify-content: flex-end; /* Align buttons to the right */
+  }
+  
+  .subsecuent-btn button {
+    height: 37.5px;
+    width: 100.5px;
+    border-radius: 6px;
+    border: 1.5px;
+    background: black;
+    color: white;
+    background-color: hsla(234, 38%, 72%, 1);
+  }
+  .subsecuent-btn button:nth-child(2){
+    background-color: white;
+    color:black;
+  }
+  
+  .injury-form-second,
+  .injury-form-third,
+  .injury-form-forth {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Add gap between label and input */
+  }
+  
+  .injury-form-second input,
+  .injury-form-third input,
+  .injury-form-forth input {
+    width: 100%; /* Inputs take full available width */
+  }
+  
+  .subsequentBtnGroup {
+    width: 100%; /* Allow buttons to fit container width */
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    margin-top: 10px;
+    gap: 7px;
+  }
+  
+  .subsequentBtnGroup button {
+    height: 37.5px;
+    width: 100.5px;
+    border-radius: 6px;
+    border: 1.5px;
+    background: black;
+    color: white;
+  }
+  label{
+    color:hsla(234, 100%, 53%, 1);
+  }
+  @media (min-width: 768px) and (max-width: 900px){
+    .injury-form-first{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+    }
+    .injury-form-second{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+        height:fit-content;
+        justify-content: space-between;
+
+    }
+    .injury-form-third{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+        height:fit-content;
+        justify-content: space-between;
+
+    }
+    .injury-form-forth{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+        height:fit-content;
+        justify-content: space-between;
+
+    }
+    .injury-form-second input,
+    .injury-form-third input,
+    .injury-form-forth input {
+    width:250px; /* Inputs take full available width */
+  }
+    
+    
+  }
+  @media (min-width: 900px) and (max-width: 1550px){
+    .injury-form-first{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+    }
+    .injury-form-second{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+        height:fit-content;
+        justify-content: space-between;
+
+    }
+    .injury-form-third{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+        height:fit-content;
+        justify-content: space-between;
+
+    }
+    .injury-form-forth{
+        display:flex;
+        /* background:red; */
+        flex-direction: row;
+        gap:77px;
+        height:fit-content;
+        justify-content: space-between;
+
+    }
+    .injury-form-second input,
+    .injury-form-third input,
+    .injury-form-forth input {
+    width:250px; /* Inputs take full available width */
+  }
+
+
+  }
