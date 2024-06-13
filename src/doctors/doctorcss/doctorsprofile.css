@@ -1,0 +1,144 @@
+.doctors-profile{
+    height:fit-content;
+    width:95%;
+    border:1px solid red;
+    margin:100px auto;
+    background-color: antiquewhite;
+
+
+}
+.doctors-name{
+    height:fit-content;
+    width:100%;
+    border:1px solid black;
+    text-align: center;
+}
+.doctors-profile p{
+    font-weight: 700;
+    color:
+    hsla(218, 60%, 13%, 1)
+}
+
+/* doc image banner */
+.doctors-banner{
+    height:fit-content;
+    width:95%;
+    border:1px solid rgb(11, 6, 6);
+    margin:10px auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:hsla(241, 74%, 65%, 1);
+}
+.doctors-img{
+    border:1px solid red;
+    display:flex;
+    justify-content: center;
+}
+.doctors-img img{
+    border-radius:50%;
+
+}
+.doctors-details{
+    height:fit-content;
+    width:90%;
+    border:1px solid red;
+    text-align:center;
+    padding:30px;
+   
+    gap:6px;
+
+    color:white;
+    font-family: 'Poppins', sans-serif
+
+
+}
+.doctors-details b{
+    font-weight: 700;
+    color:hsla(0, 0%, 100%, 1);
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.doctors-details span{
+    font-weight:200
+}
+.doctors-btngroup{
+    width:100%;
+    height:fit-content;
+    background:yellow;
+    font-family: "Karla" , sans-serif;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    padding:6px;
+
+}
+
+.doctors-btngroup button:nth-child(1){
+    border:1px solid 
+    hsla(239, 83%, 66%, 1);;
+    background-color:  hsla(239, 83%, 66%, 1);
+    color:rgb(255, 255, 255);
+
+}
+.doctors-btngroup button{
+    font-family: "Karla" , sans-serif;
+    Padding:4px;
+    border:1px solid black;
+    color:rgb(0, 0, 0);
+    border-radius: 6px;
+
+}
+.singleuser{
+    height:fit-content;
+    width:100%;
+    border:1px solid black;
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.singlediv1{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    width:fit-content;
+    border:1px solid red;
+
+
+
+}
+.week{
+    display:flex;
+    align-items: center;
+}
+.time{
+    display:flex;
+    align-items: center;
+
+}
+.singlebtn{
+    display:flex;
+    align-items: center;
+
+}
+@media (min-width: 768px) and (max-width: 900px){
+    .doctors-profile{
+        height:fit-content;
+        width:95%;
+        border:1px solid red;
+        margin:100px auto;
+        background-color: rgb(197, 122, 23);
+    
+    
+    }
+    .doctors-name{
+        height:fit-content;
+        width:95%;
+        border:1px solid black;
+        text-align: start;
+        margin: auto;
+    }
+
+}

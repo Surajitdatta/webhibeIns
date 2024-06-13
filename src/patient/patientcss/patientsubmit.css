@@ -1,0 +1,61 @@
+.patient-submit{
+    height:fit-content;
+    width:fit-content;
+    /* border:1px solid red; */
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+    
+}
+.patient-submit-img{
+    width:fit-content;
+    height:fit-content;
+    /* border:1px solid red; */
+
+}
+.patient-submit-img img{
+    border-radius:50%;
+}
+.patient-submit-content{
+    width:fit-content;
+    height:fit-content;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.patient-submit-content span{
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color:
+    hsla(234, 100%, 53%, 1);
+}
+
+.patient-submit-content button{
+    height:43px;
+    width:200px;
+    background-color: hsla(241, 74%, 65%, 1);
+    color:white;
+    /* border:0px solid red; */
+    border-radius:21.5px;
+    border:0px solid red;
+
+}
+.patient-submit-content p{
+    font-family: 'Karla', sans-serif;
+    font-size:13px;
+    color:
+    hsla(234, 100%, 53%, 1);
+    white-space: nowrap;
+
+}
+
+
