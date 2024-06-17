@@ -1,0 +1,141 @@
+.range-of-motion{
+    height:fit-content;
+    width:100%;
+    /* border:2px solid green; */
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: center;
+    padding:10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    border-radius:6px;
+
+    
+}
+.range-of-motion-insight{
+    height:fit-content;
+    width:80%;
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    
+
+}
+.insight1{
+    height:fit-content;
+    width:100%;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.insight1 button{
+    width:180px;
+    border:1px solid black;
+    border-radius: 8px;
+    font-weight:bolder;
+    
+}
+.insight-left-right{
+    height:50px;
+    width:100%;
+    /* border:1px solid red; */
+    display:flex;
+    justify-content: end;
+    align-items: center;
+   
+    gap:20px;
+
+}
+.insight-left-right button{
+    width:80px;
+    border:1px solid black;
+    border-radius: 4px;
+    background-color: 
+    hsla(241, 74%, 65%, 1);
+    color:white;
+
+}
+.insight1 input[type="text"] {
+    width: 80px;
+    border-radius: 4px;
+    border:1px solid black;
+
+}
+.insight b{
+   
+}
+.insight-left-right-input{
+    height:50px;
+    width:fit-content;
+    /* border:1px solid rgb(37, 24, 24); */
+    display:flex;
+    justify-content: end;
+    align-items: center;
+   
+    gap:20px;
+
+}
+.rom-next-button{
+    width:100%;
+    display: flex;
+    justify-content: center;
+
+}
+.rom-next-button button{
+    width:140px;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background:black;
+    color:white;
+    
+
+}
+@media (min-width: 768px) and (max-width: 900px){
+    .range-of-motion{
+        /* background:red; */
+        display:grid;
+        grid-template-columns: auto auto;
+        
+
+    }
+    .range-of-motion-insight{
+        width:fit-content;
+        justify-content: space-between;
+    }
+    .insight1{
+        gap:20px;
+
+    }
+    .rom-next-button{
+        justify-content: start;
+    }
+
+}
+@media (min-width: 901px) and (max-width: 3000px){
+    .range-of-motion{
+        /* background:red; */
+        display:grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        place-content: center;
+
+    }
+    .range-of-motion-insight{
+        width:fit-content;
+        justify-content: space-between;
+    }
+    .insight1{
+        gap:20px;
+
+    }
+    .rom-next-button{
+        justify-content: start;
+    }
+
+}

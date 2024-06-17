@@ -1,0 +1,250 @@
+.doctors-profile{
+    height:fit-content;
+    width:95%;
+    /* border:1px solid red; */
+    margin:100px auto;
+    /* background-color: antiquewhite; */
+
+
+}
+.doctors-name{
+    height:fit-content;
+    width:100%;
+    /* border:1px solid black; */
+    text-align: center;
+}
+.doctors-profile p{
+    font-weight: 700;
+    color:
+    hsla(218, 60%, 13%, 1)
+}
+
+/* doc image banner */
+.doctors-banner{
+    height:fit-content;
+    width:100%;
+    /* border:1px solid rgb(11, 6, 6); */
+    margin:10px auto;
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+    background:hsla(241, 74%, 65%, 1);
+    padding:15px;
+    border-radius: 10px;
+}
+.doctors-img{
+    /* border:1px solid rgb(11, 9, 9); */
+    display:flex;
+    justify-content: center;
+    
+    
+}
+.doctors-img img{
+    border-radius:50%;
+
+}
+.doctors-details{
+    height:fit-content;
+    width:90%;
+    /* border:1px solid red; */
+    text-align:center;
+    line-height: 30px;
+    font-size: small;
+    gap:6px;
+
+    color:white;
+    font-family: 'Poppins', sans-serif
+
+
+}
+.doctors-details b{
+    font-weight: 700;
+    color:hsla(0, 0%, 100%, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    
+
+}
+.doctors-details span{
+    font-weight:200
+}
+.doctors-btngroup{
+    width:100%;
+    height:fit-content;
+    /* background:yellow; */
+    font-family: "Karla" , sans-serif;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    padding:6px;
+    margin-top: 20px;
+
+}
+
+.doctors-btngroup button:nth-child(1){
+    border:1px solid 
+    hsla(239, 83%, 66%, 1);;
+    background-color:  hsla(239, 83%, 66%, 1);
+    color:rgb(255, 255, 255);
+
+}
+.doctors-btngroup button{
+    font-family: "Karla" , sans-serif;
+    Padding:4px;
+    border:.2px solid black;
+    color:rgb(0, 0, 0);
+    border-radius: 6px;
+
+}
+.singleuser{
+    height:fit-content;
+    width:100%;
+    /* border:1px solid black; */
+    margin-top:30px;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius:5px;
+    padding:9px;
+
+}
+.singlediv1{
+    display: flex;
+    align-items: center;
+    gap:7px;
+    width:fit-content;
+    /* border:1px solid red; */
+
+
+
+}
+.week{
+    display:flex;
+    align-items: center;
+    text-align: center;
+    /* border:1px solid red; */
+    color:hsla(222, 28%, 63%, 1);
+    font-size: smaller;
+
+}
+.time{
+    display:flex;
+    align-items: center;
+    color:hsla(222, 28%, 63%, 1);
+    font-size: smaller;
+
+}
+.singlebtn {
+    display:flex;
+    align-items: center;
+    
+
+}
+.singlebtn button{
+    height:27px;
+    background-color:hsla(209, 100%, 69%, 0.1);
+    width:140px;
+    border:0px solid red;
+    border-radius:15px;
+    font-family: "Poppins" , sans-serif;
+    font-size:14px;
+    
+
+    
+}
+.singlecontent{
+    text-align: center;
+    
+}
+.small {
+    color:hsla(222, 28%, 63%, 1);
+    font-size: smaller;
+    
+
+}
+@media (min-width: 768px) and (max-width: 900px){
+    .doctors-profile{
+        height:fit-content;
+        width:95%;
+        /* border:1px solid red; */
+        margin:100px auto;
+        /* background-color: rgb(197, 122, 23); */
+        
+    
+    }
+    .doctors-name{
+        height:fit-content;
+        width:95%;
+        /* border:1px solid black; */
+        text-align: start;
+        margin: auto;
+    }
+    .doctors-btngroup{
+        width:100%;
+        height:fit-content;
+        /* background:yellow; */
+        font-family: "Karla" , sans-serif;
+        display:flex;
+        justify-content: start;
+        gap:10px;
+        padding:0px;
+        margin:50px auto;
+    
+    }
+    .singlebtn button{
+        height:27px;
+        background-color:hsla(209, 100%, 69%, 0.1);
+        width:160px;
+        border:0px solid red;
+        border-radius:15px;
+        font-family: "Poppins" , sans-serif;
+        font-size:14px;
+        
+    
+        
+    }
+
+}
+@media (min-width: 901px) and (max-width: 3000px){
+    .doctors-profile{
+        height:fit-content;
+        width:60%;
+        /* border:1px solid red; */
+        margin:100px auto;
+        /* background-color: rgb(134, 25, 78); */
+        margin-right:100px;
+        
+    
+    }
+    .doctors-btngroup{
+        width:100%;
+        height:fit-content;
+        /* background:yellow; */
+        font-family: "Karla" , sans-serif;
+        display:flex;
+        justify-content: start;
+        gap:10px;
+        padding:0px;
+        margin:30px auto;
+    
+    }
+    .doctors-name{
+        width:95%;
+        text-align:start;
+        margin:auto;
+    }
+    .singlebtn button{
+        height:27px;
+        background-color:hsla(209, 100%, 69%, 0.1);
+        width:160px;
+        border:0px solid red;
+        border-radius:15px;
+        font-family: "Poppins" , sans-serif;
+        font-size:14px;
+        
+    
+        
+    }
+
+}
