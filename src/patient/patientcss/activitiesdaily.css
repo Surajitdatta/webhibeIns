@@ -1,0 +1,223 @@
+.activities-form{
+    
+    /* border:4px solid red; */
+    padding: 10px;
+    width:95%;
+    margin:100px auto;
+
+}
+.activities-typo{
+    
+    height: fit-content;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    width:95%;
+    /* border:1px solid red; */
+    color: rgb(134, 142, 150);
+    margin:auto;
+    text-align: center;
+    
+}
+.walk-div{
+    width:95%;
+    height:fit-content;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 6px;
+    
+}
+.walk-div span{
+    color:hsla(234, 100%, 53%, 1);
+    
+}
+.injury-input span{
+    color:hsla(234, 100%, 53%, 1);
+}
+.day-input span{
+    color:hsla(234, 100%, 53%, 1);
+}
+
+
+
+.walk-btn-group{
+    height:fit-content;
+    width:95%;
+    margin:20px auto;
+    /* border:1px solid greenyellow; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+
+}
+.walk-btn-group button{
+    width:174px;
+    height:37px;
+    border-radius:6px;
+    border:1.5px solid hsla(0, 0%, 0%, 0.43);
+    
+}
+.daily-activities-name{
+    height:43px;
+    
+    /* border:1px solid green; */
+
+
+}
+.daily-activities-name input{
+    width:200px;
+    border-radius:6px;
+    border:1px solid hsla(227, 6%, 46%, 0.4)
+}
+.activities-div-5{
+    width:95%;
+    height:fit-content;
+   
+    text-align: center;
+    margin-top: 15px;
+    
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    padding:6px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+
+}
+.activities-div-5 input{
+    margin-top:7px;
+    width:80%;
+    border-radius:6px;
+    border:1px solid hsla(227, 6%, 46%, 0.4)
+    
+}
+.activities-btn{
+    width:300px;
+    margin:20px auto;
+    display: flex;
+    justify-content: center;
+
+}
+.activities-btn button{
+    height:53px;
+    width:300px;
+    border-radius:26.5px;
+    background-color: hsla(241, 74%, 65%, 1);
+    color:white;
+    border:hsla(243, 100%, 91%, 0.4)
+
+}
+@media (min-width: 768px) and (max-width: 900px){
+    .activities-form{
+    
+        /* border:4px solid rgb(17, 2, 2); */
+        padding: 10px;
+        width:98%;
+        margin:100px auto;
+    
+    }
+    .activities-typo{
+    
+        height: fit-content;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        width:100%;
+        /* border:1px solid rgb(11, 7, 7); */
+        color: rgb(134, 142, 150);
+        margin-left:0px;
+        text-align: start;
+        
+    }
+    .walk-div{
+        width:100%;
+        text-align: start;
+       
+    }
+    
+    .walk-btn-group{
+        height:fit-content;
+        width:100%;
+        margin:20px auto;
+        /* border:1px solid greenyellow; */
+        display:flex;
+        flex-direction: row;
+        justify-content: start;
+        gap:20px;
+        
+    
+    }
+    .activities-div-5{
+        width:100%;
+        height:fit-content;
+       
+        text-align: start;
+        margin-top: 15px;
+        
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+        padding:6px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    
+    
+}
+@media (min-width: 900px) and (max-width:3000px){
+    .activities-form{
+    
+        padding: 10px;
+        width:60%;
+        margin-right:130px;
+        
+    }
+    
+    .activities-typo{
+    
+        height: fit-content;
+        font-family: 'Karla', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        width:100%;
+        /* border:1px solid rgb(11, 7, 7); */
+        color: rgb(134, 142, 150);
+        margin-left:0px;
+        text-align: start;
+        
+    }
+    .walk-div{
+        width:100%;
+        text-align: start;
+    }
+    .walk-btn-group{
+        height:fit-content;
+        width:100%;
+        margin:20px auto;
+        /* border:1px solid greenyellow; */
+        display:flex;
+        justify-content: start;
+        flex-direction: row;
+        gap:20px;
+        
+    
+    }
+    .activities-div-5{
+        width:100%;
+        height:fit-content;
+       
+        text-align: start;
+        margin-top: 15px;
+        
+        display:flex;
+        flex-direction: column;
+        gap:10px;
+        padding:6px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+
+}
